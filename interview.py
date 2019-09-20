@@ -20,3 +20,6 @@ def letter_count(str):
             letters[i]=1
 
         return letters
+
+        for ch in str:
+            letters[ch]= letters[ch] + 1 if ch in letters else 1
